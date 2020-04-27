@@ -4,12 +4,12 @@ def index(request):
     return render(request, 'homepage.html')
 
 
-def projects(request):
+def codeprojects(request):
     return render(request, 'codeprojects.html')
 
 
-def rivers(request):
-    return render(request, 'tattoo1897.html')
+def tattoo1891(request):
+    return render(request, 'tattoo1891.html')
 
 
 def aboutme(request):
