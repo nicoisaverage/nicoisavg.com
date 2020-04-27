@@ -21,6 +21,6 @@ urlpatterns = [
     path('', views.index, name='homepage'),
     path('aboutme/', views.aboutme, name='aboutme'),
     path('codeprojects/', views.projects, name='codeprojects'),
-    path('tattoo1897/', views.rivers, name='tattoo1897'),
+    path('tattoo1891/', views.rivers, name='tattoo1891'),
     path('admin/', admin.site.urls),
 ]
