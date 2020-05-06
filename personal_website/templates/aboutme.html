@@ -1,12 +1,46 @@
-<html lang="en">
+{% load static %}
+<!DOCTYPE html>
+<html>
 <head>
-<style>
-#hello {
-    color: #e74c3c;
-    font-size: 25px;
-}
-</style>
+<title>About Me</title>
+<link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href="{% static 'css/homepage.css' %}">
+  <link rel='stylesheet' href="{% static 'css/footer.css' %}">
+  <style>
+      * { margin: 0; padding: 0; }
+      html {
+          background: url({% static 'images/skullbackground.jpg' %}) no-repeat center center fixed;
+          -webkit-background-size: 100%;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+  </style>
+</head>
 <body>
-    <h1 id="hello">About moi!</h1>
+  <div class="flex-container">
+      <div class="landing-title">
+          About Me
+      </div>
+      <div class="big-container">
+          <div class="left-col-img"><img src="{% static 'images/nicoindc.jpg' %}" /></div>
+            <div class="right-col-txt">   <p class="inner">text, texty texty text. 
+            </p>
+            </div>
+        </div>
+        
+
+    </div>
+  </div>
+  <div class="row footer">
+      <div class="footer-social-icons">
+          <a class="social-icon" target="_blank" href="mailto:nanderson993@gmail.com"><i id="icon" class="fa fa-envelope"></i></a>
+          <a class="social-icon" target="_blank" href="https://github.com/nicoisaverage"><i id="icon" class="fa fa-github"></i></a>
+          <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/nicoisaverage/"><i id="icon" class="fa fa-linkedin"></i></a>
+          <a class="social-icon" target="_blank" href="https://medium.com/@datahighway"><i id="icon" class="fa fa-medium"></i></a>
+          <a class="social-icon" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i id="icon" class="fa fa-youtube"></i></a>
+      </div>
+  </div>
 </body>
 </html>
