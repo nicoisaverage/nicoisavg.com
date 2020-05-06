@@ -1,0 +1,37 @@
+.big-container {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-title {
+    text-align: center;
+    font-family: "Poiret One";
+    font-size: 4.5em;
+    font-style: bold;
+    color: white;
+}
+
+.landing-title:hover {
+    color: slategrey;
+    text-shadow: 4px 6px 4px black;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50em;
+    margin: 0 auto;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.left-col-img {
+    float: left;
+    max-height: fit-content;
+}
+
+.right-col-txt {
+    float: right;
+}
